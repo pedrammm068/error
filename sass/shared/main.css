@@ -1,0 +1,39 @@
+* {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #10151c;
+  padding: 0;
+  margin: 0;
+}
+.header__org {
+  display: flex;
+}
+
+.header__org__para {
+  color: #ff4139;
+}
+
+.para {
+  margin: 0 10px;
+}
+.para__num {
+  color: #fff;
+  margin: 0;
+}
+
+.list {
+  margin: 0 10px;
+}
+.list__ul {
+  display: flex;
+  gap: 24px;
+}/*# sourceMappingURL=main.css.map */
