@@ -1,0 +1,89 @@
+.symbol {
+    background-color: $back-dark ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__flex__dir {
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+
+    }
+
+    &__dir__logo {
+        padding-top: 20px;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        display: block;
+
+    }
+
+    &__logo__para {
+        color: $color1;
+        font-size: 30px;
+        font-weight: 800;
+        padding: 0;
+        margin: 0;
+
+
+    }
+}
+
+.dir {
+    display: block;
+
+    &__para {
+        display: block;
+        font-size: 11px;
+        color: $color1;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+.icon {
+    display: flex;
+    padding-right: 10px;
+    position: relative;
+
+    &__para {
+        color: $color1 ;
+        font-size: 15px;
+        display: flex;
+
+        &__list {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            padding-top: 20px;
+            background-color: $back-dark;
+          list-style-type: none;
+          & li {
+            padding: 1px 100px 2px 2px;
+          margin: 2px;
+font-size: 15px;
+color: $color1;
+font-weight: 600;
+          }
+        }
+
+    }
+
+    &:hover .icon__para__list {
+        display: block;
+        
+    }
+}
+@media ( min-width: 760px){
+.symbol {
+}
+}
