@@ -8,6 +8,10 @@
   text-decoration: none;
 }
 
+body {
+  background-color: #f0f4f7;
+}
+
 .header {
   background-color: #10151c;
   padding: 0;
@@ -268,4 +272,68 @@
     display: flex;
     justify-content: center;
   }
+}
+.card {
+  display: block;
+  padding: 20px;
+}
+.card__box {
+  background-color: rgb(255, 255, 255);
+  margin: -50px 0px 50px 0px;
+  text-align: center;
+  width: 100%;
+}
+.card__box :hover {
+  background-color: #ff414d;
+}
+.card__box :hover h2 {
+  color: rgb(255, 255, 255);
+}
+.card__box :hover img {
+  background-color: rgb(255, 255, 255);
+}
+.card__box h2 {
+  color: #868686;
+}
+.card__box__border {
+  display: flex;
+  background-color: #f1f1f1;
+  margin-left: 170px;
+  margin-right: 242px;
+  padding-top: 2px;
+  align-items: center;
+  gap: 15px;
+  border-radius: 6px;
+}
+.card__box p {
+  text-transform: uppercase;
+}
+.card__padd {
+  padding: 25px 0px 40px 0px;
+}
+.card__reding {
+  background-color: #ff414d;
+  margin: 0px 0px 70px 0px;
+  text-align: center;
+  width: 100%;
+}
+.card__reding h2 {
+  color: rgb(255, 255, 255);
+}
+.card__reding__border {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  padding: 0px 10px 0px 0px;
+  margin: 0px -10px 0px 0px;
+  gap: 15px;
+  border-radius: 6px;
+}
+
+.box__border {
+  color: #ff4139;
+}
+.box__para {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */
