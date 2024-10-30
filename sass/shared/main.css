@@ -221,11 +221,13 @@ body {
   margin-top: 10px;
 }
 .label__im {
+  width: 95%;
   padding: 5px 250px 12px 12px;
   border-radius: 10px;
 }
 .label__im__a {
   border-radius: 10px;
+  width: 95%;
   background-color: #ff414d;
   color: #fff;
   padding: 15px 209px 12px 180px;
