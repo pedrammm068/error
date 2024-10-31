@@ -1,3 +1,5 @@
+
+
 .card {
     display: block;
     padding: 20px;
@@ -78,6 +80,27 @@
     }
 }
 @media (min-width: 760px) {
+    .card{
+        display: flex;
+        width: 100%;
+        gap: 20px;
 
+    }
+    .card-top{
+        display: flex;
+        flex-direction: row;
+        width: 20%;
+    }
+    .card-bottom{
+        display: flex;
+        flex-direction: row;
+        width: 20%;
+    }
+    .card-pading{
+        width: 20%;
+    }
+    .card__box{
+        width: 80%;
+    }
 }
  
